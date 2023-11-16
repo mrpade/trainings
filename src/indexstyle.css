@@ -1,4 +1,7 @@
-
+.navbar-brand{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
 
 #subtitle{
     font-size: 24px;
