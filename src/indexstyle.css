@@ -1,14 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;1,500;1,800&family=Roboto+Condensed:wght@200;400;600&family=Roboto:wght@100;300;400;700&family=Vina+Sans&display=swap');
+
+/*font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Vina Sans', sans-serif; */
+body{
+    font-family: "Lato", sans-serif !important;
+    font-size: 16px !important; 
+}
 .navbar-brand{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Vina Sans', sans-serif !important;
+    font-size: 40px !important;
+}
+.navbar-nav{
+    font-family: "Roboto", sans-serif !important;
+    font-size: 16px !important;
     font-weight: 400;
 }
-
+#intro-text{
+    line-height: ;
+}
 #subtitle{
     font-size: 24px;
 }
 form{
     line-height: 3px;
 }
+@media screen and (max-width: 992px) {
+    #title{
+        font-size: 40px !important;
+    }
+}
+/*
 #banner{
     background-image: url(images/beautiful-african-american-doctor-white.jpg);
     background-position: center;
@@ -16,3 +40,26 @@ form{
     background-repeat: no-repeat;
     border-radius: 10px;
 }
+ <div class="row m-5">
+      <div class="card border-0 shadow-sm mx-auto mt-4 pt-2" style="width: 250px;">
+        <p class="card-title h5 text-center"> Fill the following form to get a free AI-assisted evaluation!</p>
+        <div class="card-body">
+          <form class="" action="">
+            <div class="mt-3">
+              <p class="h6">Full Name</p><br>
+              <input class="rounded-pill border-0 shadow-sm bg-success-subtle p-2" type="text"
+                placeholder="eg : Patrick ADE">
+            </div>
+            <div class="mt-4">
+              <p class="h6">E-mail</p><br>
+              <input class="rounded-pill border-0 shadow-sm bg-success-subtle p-2" type="email"
+                placeholder="enter your email">
+            </div>
+          </form>
+        </div>
+        <div class="card-footer text-muted bg-white">
+          <p><u>Note</u> : None of these informations will be made available to the public.</p>
+        </div>
+      </div>
+    </div>
+*/
