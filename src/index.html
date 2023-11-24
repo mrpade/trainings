@@ -6,9 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="indexstyle.css">
-  <script src="ressources.js"></script>
   <title>Document</title>
 </head>
 
@@ -18,7 +16,8 @@
     <div class="container-fluid">
       <a class="navbar-brand text-success" href="#">
         <img src="images/AdeNavbar.png" alt="" class="img-fluid">
-        <span class="d-none d-md-inline">ADE CARE</span></a>
+        <img src="images/Ade Care.png" alt="" class="img-fluid d-none d-md-inline" style="max-width: 114px; max-height: 18px;">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -34,70 +33,93 @@
 
   <!--BANNER-->
 
-  <div class="container col-xxl-8 px-4 py-5">
+  <div class="container col-xxl-8 px-4 py-5 mt-2">
     <div class="row flex-lg-row align-items-center g-5 py-5">
-      <div class="col-md-6 col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-sm-center">All your health care service needs at your fingertips!</h1>
-        <p class="lead text-sm-center">Welcome to a place where health doesn't mean money.</p>
+      <div class="col-md-6 col-sm-10 offset-sm-1 col-lg-6 offset-md-0">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center text-md-start">All your health care service needs at your fingertips!</h1>
+        <p class="lead text-center text-md-start">Welcome to a place where health doesn't mean money.</p>
       </div>
-      <div class="col-md-6 col-sm-8 offset-sm-2 col-lg-6">
+      <div class="col-md-6 col-sm-10 offset-sm-1 col-lg-6 offset-md-0">
         <img src="images/1.jpg" class="d-block mx-lg-auto img-fluid rounded shadow-sm w-100" alt="doctor">
       </div>
     </div>
   </div>
-  <div class="container col-xxl-8 px-4 py-5">
 
-    <div class="row mt-5 gy-3">
-      <div class="col-lg-3 col-md-6 col-sm-10 offset-sm-1">
-        <div class="card w-100">
+  <!--CARDS-->
+  <div class="container col-xxl-8 px-4 py-2 py-md-4 mb-5">
+
+    <div class="row mt-1 m-md-3 gy-5 gy-md-4">
+      <div class="col-lg-3 col-md-6 col-sm-10 offset-sm-1 offset-md-0">
+        <div class="card border-0 shadow text-center">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <h5 class="card-title">AI Evaluation</h5>
+            <img src="images/medium-shot-woman-working-with-device.jpg" alt="" class="img-fluid rounded mb-2">
+            <p class="card-text">Assess your symptoms using AI and get ahead in your treatment.</p>
+            <hr class="mx-5">
+            <button class="btn btn-sm btn-outline-success rounded-pill">Try!</button>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-10 offset-sm-1">
-        <div class="card">
+
+      <div class="col-lg-3 col-md-6 col-sm-10 offset-sm-1 offset-md-0">
+        <div class="card border-0 shadow text-center">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <h5 class="card-title">e-Consultation</h5>
+            <img src="images/doctor-working-with-laptop-front-view.jpg" alt="" class="img-fluid rounded mb-2">
+            <p class="card-text">Consultation with professionals without moving a feet.</p>
+            <hr class="mx-5">
+            <button class="btn btn-sm btn-outline-success rounded-pill">Start</button>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-10 offset-sm-1">
-        <div class="card">
+
+      <div class="col-lg-3 col-md-6 col-sm-10 offset-sm-1 offset-md-0">
+        <div class="card border-0 shadow text-center">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <h5 class="card-title">Appointment</h5>
+            <img src="images/portrait-happy-african-american-woman-surgeon-standing-operating-room-ready-work-patient-female-medical-worker-surgical-uniform-operation-theater.jpg" alt="" class="img-fluid rounded mb-2">
+            <p class="card-text">Schedule a meet with professionals as easily as saying "Hello!".</p>
+            <hr class="mx-5">
+            <button class="btn btn-sm btn-outline-success rounded-pill">Meet!</button>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-10 offset-sm-1">
-        <div class="card">
+
+      <div class="col-lg-3 col-md-6 col-sm-10 offset-sm-1 offset-md-0">
+        <div class="card border-0 shadow text-center">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <h5 class="card-title">Map</h5>
+            <img src="images/close-up-hand-holding-smartphone.jpg" alt="" class="img-fluid rounded mb-2">
+            <p class="card-text">Spot healthcare services near your location.</p>
+            <hr class="mx-5">
+            <button class="btn btn-sm btn-outline-success rounded-pill">Find</button>
           </div>
         </div>
       </div>
     </div>
 
+  </div>
+  <div class="footer bg-dark pt-2">
+    <div class="container d-flex flex-column align-items-center">
+      <div class="d-flex flex-row">
+        <div class="col text-center">
+          <ul class="">
+            <a href="#" class="link-light" style="text-decoration: none;">About</a>
+            <a href="#" class="link-light mx-1" style="text-decoration: none;">Contact Us</a>
+            <a href="#" class="link-light" style="text-decoration: none;">Socials</a>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center">
+          <P class="h6 text-white-50">®ADE INC</P>
+        </div>
+    </div>
   </div>
   
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="ressources.js"></script>
 
 </html>
