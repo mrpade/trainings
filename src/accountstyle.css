@@ -2,3 +2,16 @@ ul a {
     text-decoration: none;
     color: black;
 }
+ul a:hover { 
+    background-color: gainsboro;
+    padding: 5px 5px 10px 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+.col-md-2 { 
+    border-right: 1px solid gainsboro;
+}
+.col-md-10 { 
+    padding: 0 48px;
+}
